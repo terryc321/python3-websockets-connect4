@@ -75,8 +75,7 @@ function sendMoves(board, websocket) {
     if (column === undefined) {
       return;
     }
-      alert("you clicked on column " + column);
-      
+    /*  alert("you clicked on column " + column); */      
     const event = {
       type: "play",
       column: parseInt(column, 10),
