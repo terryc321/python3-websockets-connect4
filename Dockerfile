@@ -1,4 +1,4 @@
-FROM Python 3.12.3
+FROM python-3.12.3
 
 # COPY . $GOPATH/src/websocket-test
 # WORKDIR $GOPATH/src/websocket-test
