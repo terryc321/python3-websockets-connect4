@@ -1,8 +1,10 @@
 import { createBoard, playMove } from "./connect4.js";
 
 function getWebSocketServer() {
-  if (window.location.host === "terryc321.github.io") {
-    return "wss://websockets-tutorial.koyeb.app/";
+    if (window.location.host === "terryc321.github.io") {
+	/* koyeb = https://mental-orangutan-student-tec-4eb30034.koyeb.app/
+	   websocket = wss://mental-orangutan-student-tec-4eb30034.koyeb.app/ */
+    return "wss://mental-orangutan-student-tec-4eb30034.koyeb.app/";
   } else if (window.location.host === "localhost:8000") {
     return "ws://localhost:8001/";
   } else {
